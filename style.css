@@ -1,0 +1,65 @@
+@font-face {
+    font-family: score;
+    src: url("fonts/DS-DIGIT.TTF");
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items: baseline;
+    background-color: #19244D;
+    color: #d7d7d7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+.con {
+    margin: 50px;
+}
+
+.team {
+    margin-bottom: 10px;
+}
+
+.con{
+    width: fit-content;
+    display: block;
+}
+
+.score {
+    display: block;
+    text-align: center;
+    width:auto;
+    height: 170px;
+    background-color:black;
+    font-family: score;
+    color:#F94F6D;
+    font-size: 150px;
+    margin: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    font-family: score;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    color: #d7d7d7;
+    background-color: #19244D;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.add   {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
